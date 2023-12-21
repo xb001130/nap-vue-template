@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import Unocss from 'unocss/vite'
+import VueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
   resolve: {
@@ -23,5 +24,6 @@ export default defineConfig({
       dts: 'types/components.d.ts',
     }),
     Unocss(),
+    VueDevTools(),
   ],
 })
