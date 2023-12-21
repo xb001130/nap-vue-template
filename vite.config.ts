@@ -5,6 +5,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import Unocss from 'unocss/vite'
 import VueDevTools from 'vite-plugin-vue-devtools'
+import VueI18n from '@intlify/unplugin-vue-i18n/vite'
 
 export default defineConfig({
   resolve: {
@@ -17,6 +18,7 @@ export default defineConfig({
     AutoImport({
       imports: [
         'vue',
+        'vue-i18n',
       ],
       dts: 'types/auto-imports.d.ts',
     }),
@@ -25,5 +27,11 @@ export default defineConfig({
     }),
     Unocss(),
     VueDevTools(),
+    VueI18n({
+      runtimeOnly: true,
+      compositionOnly: true,
+      fullInstall: true,
+      include: [path.resolve(__dirname, 'locales/**')],
+    }),
   ],
 })
