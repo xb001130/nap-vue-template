@@ -9,6 +9,9 @@ async function toggleLocales() {
   await loadLanguageAsync(newLocale)
   locale.value = newLocale
 }
+
+const isDark = useDark()
+const toggleDark = useToggle(isDark)
 </script>
 
 <template>
@@ -18,6 +21,7 @@ async function toggleLocales() {
     <i class="i-carbon-3d-mpr-toggle" />
   </div>
   <div i-carbon-language font-size-10 @click="toggleLocales()" />
+  <div i="carbon-sun dark:carbon-moon" font-size-10 @click="toggleDark()" />
 </template>
 
 <style scoped>
