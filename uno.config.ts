@@ -1,3 +1,4 @@
+import { FileSystemIconLoader } from '@iconify/utils/lib/loader/node-loaders'
 import {
   defineConfig,
   presetAttributify,
@@ -10,7 +11,12 @@ import {
 } from 'unocss'
 
 export default defineConfig({
-  shortcuts: [],
+  shortcuts: [
+    ['wh-full', 'w-full h-full'],
+    ['auto-bg', 'bg-white dark:bg-dark'],
+    ['flex-center', 'flex items-center justify-center'],
+    ['flex-between', 'flex items-center justify-between'],
+  ],
   presets: [
     presetUno(),
     presetAttributify(),
@@ -20,6 +26,12 @@ export default defineConfig({
       extraProperties: {
         'display': 'inline-block',
         'vertical-align': 'text-bottom',
+      },
+      collections: {
+        nap: FileSystemIconLoader(
+          './src/assets',
+          svg => svg.replace(/#FFF/, 'currentColor'),
+        ),
       },
     }),
     presetTypography(),
