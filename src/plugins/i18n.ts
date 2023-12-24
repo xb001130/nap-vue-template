@@ -1,3 +1,4 @@
+import type { App } from 'vue'
 import type { Locale } from 'vue-i18n'
 import { createI18n } from 'vue-i18n'
 
@@ -39,4 +40,7 @@ export async function loadLanguageAsync(lang: string): Promise<Locale> {
   return setI18nLanguage(lang)
 }
 loadLanguageAsync('en')
-export default i18n
+
+export function setupI18n(app: App<Element>) {
+  app.use(i18n)
+}

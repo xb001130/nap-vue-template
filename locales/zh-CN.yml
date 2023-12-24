@@ -1,1 +1,2 @@
-test: 测试
+home:
+  desc: Vite + Vue 初始化模板
