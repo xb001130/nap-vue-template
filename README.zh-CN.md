@@ -3,23 +3,23 @@
 </p>
 
 <p align='center'>
-<b>An initialization template based on vite and vue3</b>
+<b>一个基于vite和vue3的初始化模板</b>
 </p>
 
 <p align='center'>
-<b>English</b> | <a href="https://github.com/SleeppingX/nap-vue-template/blob/main/README.zh-CN.md">简体中文</a>
+<a href="https://github.com/SleeppingX/nap-vue-template/blob/main/README.md">English</a> | <b>简体中文</b>
 <!-- Contributors: Thanks for getting interested, however we DON'T accept new translations to the README, thanks. -->
 </p>
 
 ## Features
 - ⚡️ [Vue3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/)
-- 📦 [Automatic component entry](https://github.com/unplugin/unplugin-vue-components)
-- 📥 [API automatic import](https://github.com/unplugin/unplugin-auto-import)
-- 🍍 [State management using Pinia](https://pinia.vuejs.org)
-- 🎨 [UnoCSS-CSS engine](https://github.com/unocss/unocss)
-- 😃 [Icons integration](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-- 🌍 [Internationalization](./locales)
-- 🦾 [TypeScript-JavaScript superset](https://www.typescriptlang.org/)
+- 📦 [自动引入组件](https://github.com/unplugin/unplugin-vue-components)
+- 📥 [API 自动引入](https://github.com/unplugin/unplugin-auto-import)
+- 🍍 [使用Pinia的状态管理库](https://pinia.vuejs.org)
+- 🎨 [UnoCSS-CSS引擎](https://github.com/unocss/unocss)
+- 😃 [图标集](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+- 🌍 [国际化](./locales)
+- 🦾 [TypeScript-JavaScript超集](https://www.typescriptlang.org/)
 
 ## Configuration
 
@@ -49,5 +49,5 @@
 ```bash
 git clone https://github.com/SleeppingX/nap-vue-template.git
 cd nap-vue-template
-pnpm i # If you have not installed pnpm, you can run npm install -g pnpm first
+pnpm i # 如果你没装过 pnpm, 可以先运行: npm install -g pnpm
 ```
