@@ -11,7 +11,7 @@
 <!-- Contributors: Thanks for getting interested, however we DON'T accept new translations to the README, thanks. -->
 </p>
 
-## Features
+## 特性
 - ⚡️ [Vue3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/)
 - 📦 [自动引入组件](https://github.com/unplugin/unplugin-vue-components)
 - 📥 [API 自动引入](https://github.com/unplugin/unplugin-auto-import)
@@ -21,18 +21,18 @@
 - 🌍 [国际化](./locales)
 - 🦾 [TypeScript-JavaScript超集](https://www.typescriptlang.org/)
 
-## Configuration
+## 配置
 
 ### CSS
 
 - [UnoCSS](https://github.com/antfu/unocss)
 
-### Icons
+### 图标集成
 
 - [Iconify](https://iconify.design) - Icon set, Preview Icon:[Icônes](https://icones.netlify.app/)
 - [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
-### Plugins
+### 插件
 
 - [`Vue Router`](https://github.com/vuejs/router)
 - [`Pinia`](https://pinia.vuejs.org)
@@ -44,7 +44,7 @@
 - [`vite-plugin-vue-devtools`](https://github.com/webfansplz/vite-plugin-vue-devtools)
 - [`eslint-config`](https://github.com/antfu/eslint-config)
 
-## Use
+## 使用
 
 ```bash
 git clone https://github.com/SleeppingX/nap-vue-template.git
