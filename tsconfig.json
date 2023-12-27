@@ -21,5 +21,11 @@
     "isolatedModules": true,
     "skipLibCheck": true
   },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.vue",
+    "types/**/*.d.ts"
+  ],
   "exclude": ["dist", "node_modules", "cypress"]
 }
