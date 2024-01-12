@@ -20,6 +20,7 @@
 - 😃 [Icons integration](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 - 🌍 [Internationalization](./locales)
 - 🦾 [TypeScript-JavaScript superset](https://www.typescriptlang.org/)
+- 🎆 [Git-Hooks](https://github.com/toplenboren/simple-git-hooks)
 
 ## Configuration
 
@@ -43,6 +44,7 @@
 - [`VueUse`](https://github.com/antfu/vueuse)
 - [`vite-plugin-vue-devtools`](https://github.com/webfansplz/vite-plugin-vue-devtools)
 - [`eslint-config`](https://github.com/antfu/eslint-config)
+- [`rollup-plugin-visualizer`](https://github.com/btd/rollup-plugin-visualizer)
 
 ## Use
 

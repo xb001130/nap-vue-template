@@ -20,6 +20,7 @@
 - 😃 [图标集](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 - 🌍 [国际化](./locales)
 - 🦾 [TypeScript-JavaScript超集](https://www.typescriptlang.org/)
+- 🎆 [Git-Hooks](https://github.com/toplenboren/simple-git-hooks)
 
 ## 配置
 
@@ -43,6 +44,7 @@
 - [`VueUse`](https://github.com/antfu/vueuse)
 - [`vite-plugin-vue-devtools`](https://github.com/webfansplz/vite-plugin-vue-devtools)
 - [`eslint-config`](https://github.com/antfu/eslint-config)
+- [`rollup-plugin-visualizer`](https://github.com/btd/rollup-plugin-visualizer)
 
 ## 使用
 
