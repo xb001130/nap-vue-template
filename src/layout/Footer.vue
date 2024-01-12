@@ -18,7 +18,7 @@ const toggleDark = useToggle(isDark)
   <div flex-center font-size-5>
     <div i-carbon-language mr-10px @click="toggleLocales()" />
     <div i="carbon-sun dark:carbon-moon" mr-10px @click="toggleDark()" />
-    <a href="https://github.com/antfu/vitesse" target="_blank">
+    <a href="https://github.com/SleeppingX/nap-vue-template" target="_blank">
       <div i-carbon-logo-github />
     </a>
   </div>
