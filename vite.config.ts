@@ -6,6 +6,7 @@ import Components from 'unplugin-vue-components/vite'
 import Unocss from 'unocss/vite'
 import VueDevTools from 'vite-plugin-vue-devtools'
 import VueI18n from '@intlify/unplugin-vue-i18n/vite'
+import { visualizer } from 'rollup-plugin-visualizer'
 
 export default defineConfig({
   resolve: {
@@ -35,5 +36,6 @@ export default defineConfig({
       fullInstall: true,
       include: [path.resolve(__dirname, 'locales/**')],
     }),
+    visualizer({ open: true }),
   ],
 })
