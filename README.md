@@ -7,7 +7,7 @@
 </p>
 
 <p align='center'>
-<b>English</b> | <a href="https://github.com/SleeppingX/nap-vue-template/blob/main/README.zh-CN.md">简体中文</a>
+<b>English</b> | <a href="https://github.com/xb001130/nap-vue-template/blob/main/README.zh-CN.md">简体中文</a>
 <!-- Contributors: Thanks for getting interested, however we DON'T accept new translations to the README, thanks. -->
 </p>
 
@@ -49,7 +49,7 @@
 ## Use
 
 ```bash
-git clone https://github.com/SleeppingX/nap-vue-template.git
+git clone https://github.com/xb001130/nap-vue-template.git
 cd nap-vue-template
 pnpm i # If you have not installed pnpm, you can run npm install -g pnpm first
 ```
