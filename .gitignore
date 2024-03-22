@@ -4,3 +4,4 @@ dist
 dist-ssr
 *.local
 .DS_Store
+stats.html
