@@ -36,6 +36,6 @@ export default defineConfig({
       fullInstall: true,
       include: [path.resolve(__dirname, 'locales/**')],
     }),
-    visualizer({ open: true }),
+    visualizer({ open: false }),
   ],
 })
