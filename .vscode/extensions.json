@@ -1,3 +1,8 @@
 {
-  "recommendations": ["Vue.Official", "antfu.iconify", "antfu.unocss"]
+  "recommendations": [
+    "vue.volar",
+    "dbaeumer.vscode-eslint",
+    "antfu.iconify",
+    "antfu.unocss"
+  ]
 }
